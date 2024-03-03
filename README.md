@@ -12,7 +12,7 @@ Build a full e-commerce website.
 
 **Techs Used:**
 
-- Django
+- Python, Django
 - JavaScript
 - Bootstrap
 
@@ -39,4 +39,38 @@ pip install -r requirements.txt
 
 # Run server
 python manage.py runserver
+```
+
+
+### Project Structure
+
+```bash
+app
+├───Core
+│   ├───migrations
+│   ├───templates
+│   ├───tests
+│   ├───urls.py
+│   └───views.py
+├───QuantumCart
+│   ├───settings.py
+│   ├───urls.py
+│   └───wsgi.py
+├───docs
+│   ├───images
+│   └───README.md
+├───products
+│   ├───migrations
+│   ├───templates
+│   ├───tests
+│   ├───urls.py
+│   └───views.py
+├───static
+│   └───css
+├───templates
+├───.gitignore
+├───db.sqlite3
+├───manage.py
+├───README.md
+└───requirements.txt
 ```
