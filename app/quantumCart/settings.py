@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'userAuths.apps.UserauthsConfig',
 ]
 
-AUTH_USER_MODEL = 'userAuths.User'
+# AUTH_USER_MODEL = 'userAuths.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
